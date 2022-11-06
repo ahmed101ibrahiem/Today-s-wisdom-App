@@ -12,6 +12,7 @@ ThemeData AppTheme(){
   //  brightness: Brightness.light,
     fontFamily: AppStrings.fontFamily,
     appBarTheme: AppBarTheme(
+      iconTheme: IconThemeData(color: Colors.black),
       toolbarTextStyle: TextStyle(
           height: 1.3,
           color: Colors.white,
